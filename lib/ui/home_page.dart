@@ -80,7 +80,8 @@ class _HomePageState extends State<HomePage> {
                   image: DecorationImage(
                     image: contacts[index].img != null ?
                     FileImage(File(contacts[index].img)) :
-                    AssetImage("images/person.jpg")
+                    AssetImage("images/person.jpg"),
+                    fit: BoxFit.cover
                   )
                 )
               ),
@@ -230,7 +231,7 @@ class _HomePageState extends State<HomePage> {
         break;
     }
     setState(() {
-      
+
     });
   }
 }
