@@ -41,5 +41,12 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Take pictures from your contacts.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Select picture from your gallery.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Take picture from your contacts.</string>
 </dict>
 </plist>
